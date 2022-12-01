@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+    "strict": true, 
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "sourceMap": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "typeRoots": ["./src/**/*.d.ts"],
+    "types": ["node"],
+    "paths": {
+      "@/*": ["src/*"],
+      "@u/*": ["src/utils/*"]
+    },
+    "baseUrl": ".",
+    "rootDir": "./src",
+    "outDir": "./dist",
+	},
+  "include": ["./src/**/*.ts"],
+  "exclude": ["node_modules","dist","test"]
+}

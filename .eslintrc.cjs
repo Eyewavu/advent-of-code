@@ -22,7 +22,6 @@ module.exports = {
     "dot-notation":["error"],
     "eqeqeq":["error"],
     "linebreak-style": ["error","unix"],
-    "no-console":["warn"],
     "no-constant-binary-expression":["error"],
     "no-duplicate-imports":["warn",{"includeExports":true}],
     "no-empty-function":["error"],
